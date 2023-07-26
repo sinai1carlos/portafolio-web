@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    /*background-color: #0040ff;*/
+    background-color: black;
+    color: white;
+}
+
+  /*
+@for $i from 1 through 100 {
+    .animation-#{$i} {
+      animation-delay: #{$i / 10}s;
+    }
+  }*/

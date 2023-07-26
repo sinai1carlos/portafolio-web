@@ -1,0 +1,21 @@
+<div class="wrapper">
+    <div class="pre-title animate__animated animate__fadeInUp animation-1">Hola mi nombre es</div>
+    <h1 class="title animate__animated animate__fadeInUp">Carlos Unda</h1>
+    <h2 class="sub-title animate__animated animate__fadeInUp">Soy desarrollador web</h2>
+    <p class="description animate__animated animate__fadeInUp">
+        Desarrollador tecnologico en Front-End. Con ganas de ayudar a las personas
+        con los trabajos y aprender juntos.
+    </p>
+    <div class="link-wrapper sub-title animate__animated animate__fadeInUp">
+        <hr>
+        <div class="links d-flex flex-wrap">
+            <div class="block col-12 col-lg-4" *ngFor="let linkObject of links">
+                <a [href]="linkObject.link" target="_blank">
+                    <div class="block-in">
+                        <span [innerHTML]="linkObject.icon"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
